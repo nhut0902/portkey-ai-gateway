@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: portkey-ai-gateway
+    runtime: node
+    buildCommand: npm install
+    startCommand: node start.js
+    numInstances: 1
+    autoDeploy: true

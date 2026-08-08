@@ -1,0 +1,11 @@
+{
+  "name": "portkey-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "@portkey-ai/gateway": "latest"
+  }
+}
